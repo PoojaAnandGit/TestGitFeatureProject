@@ -16,3 +16,7 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.840
+- serviceName: project.testgitfeature.integrations:test123
+  packages:
+  - name: TestGitFeatureProject
+    version: "1.0"
