@@ -15,7 +15,7 @@ services:
 - serviceName: pub.date:getCurrentDate
   packages:
   - name: WmPublic
-    version: 11.0.0.0.840
+    version: 11.0.0.0.843
 - serviceName: project.testgitfeature.integrations:test123
   packages:
   - name: TestGitFeatureProject
