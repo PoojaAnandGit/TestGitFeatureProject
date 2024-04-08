@@ -34,10 +34,10 @@
   </record>
   <value name="description"></value>
   <value name="stateless">yes</value>
-  <value name="caching">no</value>
-  <value name="prefetch">no</value>
-  <value name="cache_ttl">15</value>
-  <value name="prefetch_level">1</value>
+  <value name="caching">yes</value>
+  <value name="prefetch">yes</value>
+  <value name="cache_ttl">5</value>
+  <value name="prefetch_level">2</value>
   <value name="audit_level">off</value>
   <value name="check_internal_acls">no</value>
   <value name="icontext_policy">$null</value>
@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">flowadmin</value>
-    <value name="lastModifiedDate">1712553335395</value>
+    <value name="lastModifiedDate">1712554268291</value>
     <value name="displayName">test123</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -64,6 +64,8 @@
           <value name="transformerSupport">true</value>
         </record>
         <number name="lineNumber" type="Long">1</number>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">0</value>
       </record>
     </record>
   </record>
